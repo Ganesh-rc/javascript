@@ -32,5 +32,5 @@ function outp(){
     document.getElementById("attempts").innerHTML = 10 - count;
     count++;
 }
-
+console.log(random);
 
