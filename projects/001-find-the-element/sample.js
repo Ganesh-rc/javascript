@@ -30,7 +30,7 @@ function outp(){
     previous = document.getElementById("previous").innerHTML = inp + "  " + previous;
     document.getElementById("inp").value = "";
     document.getElementById("attempts").innerHTML = 10 - count;
-    count++;
+    count += b;//count++;
 }
 
 
