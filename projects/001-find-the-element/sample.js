@@ -3,6 +3,7 @@ const random = Math.floor((Math.random() * 100) + 1);
 // let event = document.getElementById("submit");
 let count = 1;
 let previous = "";
+console.log(random);
 function outp(){
     // we get input in text format so we convert into integer
     let inp = parseInt(document.getElementById("inp").value); 
@@ -32,5 +33,5 @@ function outp(){
     document.getElementById("attempts").innerHTML = 10 - count;
     count++;
 }
-console.log(random);
+
 
